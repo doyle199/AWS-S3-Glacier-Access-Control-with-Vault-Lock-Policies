@@ -1,0 +1,19 @@
+•	{
+•	     "Version":"2012-10-17",
+•	     "Statement":[
+•	      {
+•	         "Sid": "deny-based-on-archive-age",
+•	         "Principal": "*",
+•	         "Effect": "Deny",
+•	         "Action": "glacier:DeleteArchive",
+•	         "Resource": [
+•	         " YOUR VAULT ARN HERE"
+•	         ],
+•	         "Condition": {
+•	             "NumericLessThan" : {
+•	                  "glacier:ArchiveAgeInDays" : "365"
+•	              }
+•	          }
+•	      } 
+•	  ]
+•	}
