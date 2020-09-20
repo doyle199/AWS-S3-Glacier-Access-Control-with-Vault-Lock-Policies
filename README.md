@@ -49,5 +49,6 @@ To deny deletion permissions based on a tag, go to the permissions tab. •	Clic
 
 ![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/edit_policy_document.png)
 
+Enter the following JSON https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Tag_Deny_Deletion.jscsrc using your vault ARN with the correct root ID, 12 digit number next to Account, for the IAM that you want.
 
 
