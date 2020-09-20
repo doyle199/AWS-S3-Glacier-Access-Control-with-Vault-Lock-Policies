@@ -45,11 +45,11 @@ Enter the Lock ID, check the Acknowledgement, and click Complete Vault Lock.
 
 Now one cannot delete anything less than 365 days old.
 
-To deny deletion permissions based on a tag, go to the permissions tab. •	Click on edit policy document.
+To deny deletion permissions based on a tag, go to the permissions tab.	Click on edit policy document.
 
 ![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/edit_policy_document.png)
 
-Enter the following JSON https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Tag_Deny_Permissions.jscsrc using your vault ARN with the correct root ID, 12 digit number next to Account, for the IAM that you want. CLick Save.
+Enter the following JSON https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Tag_Deny_Permissions.jscsrc using your vault ARN with the correct root ID, 12 digit number next to Account, for the IAM that you want. Click Save.
 
 ![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Edit_Vault.png)
 
