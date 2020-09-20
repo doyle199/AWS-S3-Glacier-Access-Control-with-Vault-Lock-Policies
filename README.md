@@ -27,3 +27,10 @@ To deny deletion permissions for archives less than 365 days old, Click on the v
 
 Add the following JSON to the box https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Initiate%20Vault%20Lock.jscsrc. Put the correct Vault ARN. Click Initiate Vault Lock.
 
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Vault_Lock_Policy_365.png)
+
+Take note of the Lock ID, you will need it. Click close.
+
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Lock_ID.png)
+
+
