@@ -33,4 +33,21 @@ Take note of the Lock ID, you will need it. Click close.
 
 ![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Lock_ID.png)
 
+Vault lock will say In progress. Click on Complete Vault Lock.
+
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Vault_in_progress.png)
+
+Enter the Lock ID, check the Acknowledgement, and click Complete Vault Lock.
+
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/complete_Vault_Lock.png)
+
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/Locked_1.png)
+
+Now one cannot delete anything less than 365 days old.
+
+To deny deletion permissions based on a tag, go to the permissions tab. •	Click on edit policy document.
+
+![alt text](https://github.com/doyle199/AWS-S3-Glacier-Access-Control-with-Vault-Lock-Policies/blob/master/edit_policy_document.png)
+
+
 
